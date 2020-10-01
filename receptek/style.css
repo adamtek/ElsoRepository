@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body{
+	margin: 0;	
+	font-family: 'Raleway', sans-serif;
+	background: url('background-grey.jpg') fixed;
+}
+*{
+
+box-sizing: border-box;
+
+}
+
+header{
+	
+background: url('hamburger.jpg');	
+font-size: 80px;
+font-weight: 700;
+color: white;
+padding: 80px 60px;
+text-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
+.wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+.content{
+	background-color: #330303;	
+}
+
+.content::after, footer::after{ /*clearfix hack a floatolás után*/
+	content: '';
+	clear: both;
+	display: table;
+}
+nav{
+		width: 25%;
+		float: left;
+}
+nav ul {
+	margin: 0;
+	padding: 30px;
+	list-style: none;
+}
+nav ul li{
+	border-bottom: 1px dashed rgba(255,255,255, 0.5);
+
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px 0;
+}
+nav a:hover{
+	background: rgba(255,255,255,0.2);
+	padding: 15px;
+
+}
+main
+{
+		width: 75%;
+		background-color: white;
+		float: left;
+		padding: 30px;
+}
+main p{
+	
+	line-height: 23px;
+	
+}
+ .float-right{
+	 float: right;
+	 margin: 0 0 20px 20px;
+	 
+ }
+ .float-left{
+	 float: left;
+	 margin: 20px 20px 20px 0;
+ }
+ 
+ footer {
+	 padding: 20px 0 20px 0;
+	 
+ }
+ footer a {
+	 color: black;
+	 
+ }
+ 
+ footer .left {
+	 
+	 float: left;
+ }
+ 
+ footer .right {
+	 
+	 float: right;
+ }
+ 
+h1 {
+	
+
+	margin-top: 0px;
+
+
+}
+h1 span {
+	
+		font-size: 50px;
+		background: green;
+	color: white;
+	
+	
+	-webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+	
+	border-left: 10px solid green;
+	border-right: 10px solid green;
+	border-bottom: 7px solid green;
+	
+	line-height: 75px;
+}
